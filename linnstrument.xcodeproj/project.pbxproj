@@ -6,50 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		336CBCC61AD839E8009C57C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 336CBCC51AD839E8009C57C6 /* main.cpp */; };
-		336CBCCC1AD84D1B009C57C6 /* linnstrument-firmware.ino in Sources */ = {isa = PBXBuildFile; fileRef = 336CBCCB1AD84D1B009C57C6 /* linnstrument-firmware.ino */; };
-		336CBCCE1AD84D2D009C57C6 /* ls_arpeggiator.ino in Sources */ = {isa = PBXBuildFile; fileRef = 336CBCCD1AD84D2D009C57C6 /* ls_arpeggiator.ino */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		336CBCC01AD839E8009C57C6 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		336CBCBB1AD83615009C57C6 /* linnstrument-firmware */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "linnstrument-firmware"; path = "../linnstrument-firmware"; sourceTree = "<group>"; };
 		336CBCBC1AD838B8009C57C6 /* Arduino.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Arduino.h; path = ../../Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/sam/cores/arduino/Arduino.h; sourceTree = "<group>"; };
 		336CBCBD1AD838F6009C57C6 /* HardwareSerial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HardwareSerial.h; path = ../../Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/sam/cores/arduino/HardwareSerial.h; sourceTree = "<group>"; };
-		336CBCC21AD839E8009C57C6 /* linnstrument-doc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "linnstrument-doc"; sourceTree = BUILT_PRODUCTS_DIR; };
 		336CBCC51AD839E8009C57C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		336CBCCB1AD84D1B009C57C6 /* linnstrument-firmware.ino */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; name = "linnstrument-firmware.ino"; path = "../linnstrument-firmware/linnstrument-firmware.ino"; sourceTree = "<group>"; };
 		336CBCCD1AD84D2D009C57C6 /* ls_arpeggiator.ino */ = {isa = PBXFileReference; lastKnownFileType = text; name = ls_arpeggiator.ino; path = "../linnstrument-firmware/ls_arpeggiator.ino"; sourceTree = "<group>"; };
 		33F3B6C91AF4C2A5001B46C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		336CBCBF1AD839E8009C57C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		336CBCC31AD839E8009C57C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				336CBCC21AD839E8009C57C6 /* linnstrument-doc */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,26 +87,6 @@
 		};
 /* End PBXLegacyTarget section */
 
-/* Begin PBXNativeTarget section */
-		336CBCC11AD839E8009C57C6 /* linnstrument-doc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 336CBCC71AD839E8009C57C6 /* Build configuration list for PBXNativeTarget "linnstrument-doc" */;
-			buildPhases = (
-				336CBCBE1AD839E8009C57C6 /* Sources */,
-				336CBCBF1AD839E8009C57C6 /* Frameworks */,
-				336CBCC01AD839E8009C57C6 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "linnstrument-doc";
-			productName = "linnstrument-doc";
-			productReference = 336CBCC21AD839E8009C57C6 /* linnstrument-doc */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		338A98F41AD8318A00EFC3CF /* Project object */ = {
 			isa = PBXProject;
@@ -144,9 +94,6 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Ctrl Alt Delete Ltd.";
 				TargetAttributes = {
-					336CBCC11AD839E8009C57C6 = {
-						CreatedOnToolsVersion = 6.3;
-					};
 					338A98F81AD8318A00EFC3CF = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -165,44 +112,12 @@
 			projectRoot = "";
 			targets = (
 				338A98F81AD8318A00EFC3CF /* linnstrument */,
-				336CBCC11AD839E8009C57C6 /* linnstrument-doc */,
 				33F3B6CE1AF4C3D0001B46C4 /* Upload */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		336CBCBE1AD839E8009C57C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				336CBCC61AD839E8009C57C6 /* main.cpp in Sources */,
-				336CBCCC1AD84D1B009C57C6 /* linnstrument-firmware.ino in Sources */,
-				336CBCCE1AD84D2D009C57C6 /* ls_arpeggiator.ino in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
 /* Begin XCBuildConfiguration section */
-		336CBCC81AD839E8009C57C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		336CBCC91AD839E8009C57C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		338A98F91AD8318A00EFC3CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,15 +240,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		336CBCC71AD839E8009C57C6 /* Build configuration list for PBXNativeTarget "linnstrument-doc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				336CBCC81AD839E8009C57C6 /* Debug */,
-				336CBCC91AD839E8009C57C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		338A98F71AD8318A00EFC3CF /* Build configuration list for PBXProject "linnstrument" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
